@@ -1,0 +1,18 @@
+.layout-atlas .region-topbar {
+    position: relative;
+    z-index: 2;
+    min-height: 48px;
+    background-color: #373d42;
+}
+
+.layout-atlas .region-sidebar {
+    z-index: 101;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 2px 4px 8px rgba(0, 0, 0, 0.28);
+    background: #373d42;
+}
+
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li a.active {
+    color: #fff;
+    border-left-color: #fff;
+    background-color: #373d42;
+}

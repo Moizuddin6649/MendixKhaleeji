@@ -26764,6 +26764,10 @@ input[type=checkbox].three-state-checkbox + .control-label {
   background-color: #373d42;
 }
 
+.termsandcondition {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/530e8d24e4b04fb5b2cdcbf1/1458588031072-SLVBBWLS5COSXLPOIUZS/SAO_0532-min.jpg?format=1500w");
+}
+
 .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a {
   color: #fff;
   border-color: #171946;
@@ -26831,6 +26835,20 @@ input[type=checkbox].three-state-checkbox + .control-label {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+
+.modal-dialog .modal-content .modal-header {
+  padding: 15px 20px;
+  border-bottom-color: #ced0d3;
+  border-radius: 0;
+  background-color: #373d42;
+}
+
+.modal-dialog .modal-content .modal-header h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */

@@ -26774,4 +26774,18 @@ input[type=checkbox].three-state-checkbox + .control-label {
   background-color: #3a4146;
 }
 
+.modal-dialog .modal-content .modal-header {
+  padding: 15px 20px;
+  border-bottom-color: #ced0d3;
+  border-radius: 0;
+  background-color: #373d42;
+}
+
+.modal-dialog .modal-content .modal-header h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=theme.compiled.css.map */

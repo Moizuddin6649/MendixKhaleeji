@@ -26758,4 +26758,16 @@ input[type=checkbox].three-state-checkbox + .control-label {
   background-color: #373d42;
 }
 
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a {
+  color: #fff;
+  border-color: #171946;
+  background-color: #373d42;
+  font-size: 14px;
+}
+
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li a:hover {
+  color: #fff;
+  background-color: #3a4146;
+}
+
 /*# sourceMappingURL=theme.compiled.css.map */

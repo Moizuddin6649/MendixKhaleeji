@@ -26796,16 +26796,16 @@ input[type=checkbox].three-state-checkbox + .control-label {
   align-items: center;
 }
 
-.btn {
+.cust-butt .btn, .cust-butt .btn-default {
   background-color: #3a4146;
-  width: 40%;
+  width: 100%;
   color: #fff;
   border-radius: 8px;
   height: 100%;
   transition: 0.5s;
 }
 
-.btn:hover {
+.cust-butt:hover {
   background-color: #4d5052;
   color: #fff;
   scale: 1.1;
@@ -26835,6 +26835,27 @@ input[type=checkbox].three-state-checkbox + .control-label {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+
+.cust-custmer {
+  background: #fff;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  transition: 0.5s;
+  width: 90%;
+}
+
+.cust-custmer:hover {
+  scale: 1.1;
+}
+
+.cust-home-count {
+  background-color: #f2f1f8;
+  height: 100vh;
 }
 
 .modal-dialog .modal-content .modal-header {

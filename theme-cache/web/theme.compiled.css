@@ -26879,7 +26879,7 @@ input[type=checkbox].three-state-checkbox + .control-label {
   text-shadow: none;
 }
 
-.form-control {
+.cust-from-ee .form-control {
   display: flex;
   flex: 1;
   min-width: 50px;

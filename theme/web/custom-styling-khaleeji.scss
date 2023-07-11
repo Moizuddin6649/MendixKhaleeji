@@ -64,6 +64,7 @@
     background-color: #4d5052;
     color: #fff;
     scale: 1.1;
+    border-radius: 8px;
 }
 
 .cust-label-color{
@@ -116,4 +117,29 @@
     background-color: #f2f1f8;
     height: 100vh;
 }
+.cust-list{
+.mx-listview > ul > li {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px;
+    margin-top: 8px;
+}
+}
 
+.cust-view-but{
+    .btn, .btn-default {
+        background-color: #3a4146;
+        width: 100%;
+        color: #fff;
+        border-radius: 8px;
+        height: 100%;
+        transition: 0.7s;
+    }
+}
+.cust-view-but:hover{
+    background-color: #4d5052;
+    color: #fff;
+    scale: 1.1;
+    border-radius: 8px;
+}

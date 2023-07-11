@@ -1,65 +1,82 @@
-//
-// DISCLAIMER:
-// Do not change this file because it is core styling.
-// Customizing core files will make updating Atlas much more difficult in the future.
-// To customize any core styling, copy the part you want to customize to styles/web/sass/app/ so the core styling is overwritten.
-//
-
 @mixin progress() {
+
     /* ==========================================================================
+
        Progress
 
+
+
        Default Mendix progress widget.
+
     ========================================================================== */
 
+
+
     .mx-progress {
+
         color: $font-color-default;
-        background: $bg-color-secondary;
+
+        background: #fff;
+        border-radius: 8px;
+
+
 
         .mx-progress-message {
+
             color: $font-color-default;
+
         }
+
+
 
         .mx-progress-indicator {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            max-width: 100%;
-            height: 2px;
-            margin: auto;
-            padding: 0;
-            border-radius: 0;
-            background: $gray-lighter;
+           
+  width: 4.8px;
+  height: 4.8px;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 4px;
+  color: black;
+  background: currentColor;
+  box-sizing: border-box;
+  animation: animloader 0.3s 0.3s linear infinite alternate;
 
             &:before,
+
             &:after {
-                position: absolute;
-                top: 0;
-                left: 0;
-                display: block;
-                width: 50%;
-                height: 2px;
-                content: "";
-                transform: translate3d(-100%, 0, 0);
-                background: $brand-primary;
+content: '';  
+  box-sizing: border-box;
+  width: 4.8px;
+  height: 4.8px;
+  border-radius: 4px;
+  background: currentColor;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15px;
+  animation: animloader 0.3s 0.45s linear infinite alternate;
             }
 
-            &::before {
-                animation: loader 2s infinite;
-            }
+
+
+           
+
+
 
             &::after {
-                animation: loader 2s -2s infinite;
+top: -15px;
+    animation-delay: 0s;
+
             }
+
         }
+
     }
 
-    @keyframes loader {
-        0% {
-            transform: translate3d(-100%, 0, 0);
-        }
-        100% {
-            transform: translate3d(200%, 0, 0);
-        }
-    }
+  @keyframes animloader {
+    0% { width: 4.8px }
+    100% { width: 48px}
+}
+
 }
